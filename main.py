@@ -1,6 +1,6 @@
 import requests
 def Choice():
-    input("Do you want to find info about earthquakes(1), or amount of people in space(2)?")
+    print("Do you want to find info about earthquakes(1), or amount of people in space(2)?")
     ans=input()
     if ans=="1":
         print(res2)
